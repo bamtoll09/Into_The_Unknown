@@ -19,9 +19,6 @@
 </head>
 
 <body onmousedown="ClickToPlay()" style="background-color: #ffc1cb;">
-  <div class="header" id="header">
-    <img class="banner" src="../resources/banner.png" />
-  </div>
 
   <div id="mySidebar" class="sidebar" style="width: 0px; position: fixed; padding: 0px; top: 160px;">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="position: absolute;">&times;</a>
@@ -34,13 +31,16 @@
 
   <div class="main_source" style="height:5000px">
     <div>
-      <div>
-        <div class="timer">
-          <h1 id="timer_header" style="height: 400px;">
-            Merry Christmas<br>D-day
-          </h1>
-          <h2 id="timer"></h2>
-        </div>
+      
+      <div class="header" id="header">
+        <img class="banner" src="../resources/banner.png" />
+      </div>
+      
+      <div class="timer">
+        <h1 id="timer_header" style="height: 400px;">
+          Merry Christmas<br>D-day
+        </h1>
+        <h2 id="timer"></h2>
       </div>
 
       <div class="recommendatory">
@@ -124,7 +124,7 @@
                   1위: 목걸이
                 </span>
               </div>
-            </td> ------
+            </td>
             <td>
               <div class='button n30' onclick="b('necklace')">
                 <img class='image' src="../resources/icons/necklace.png" />
